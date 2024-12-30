@@ -1,0 +1,32 @@
+{
+  "name": "tokyo-night-storm-csharp",
+  "displayName": "Tokyo Night Storm C#",
+  "description": "A dark theme for Visual Studio Code based on the Tokyo Night theme.",
+  "version": "0.0.1",
+  "publisher": "ray-sinner",
+  "engines": {
+    "vscode": "^1.50.0"
+  },
+  "categories": [
+    "Themes"
+  ],
+  "contributes": {
+    "themes": [
+      {
+        "label": "Tokyo Night Storm C#",
+        "uiTheme": "vs-dark",
+        "path": "./themes/tokyo-night-storm-csharp.json"
+      }
+    ]
+  },
+  "scripts": {
+    "vscode:prepublish": "npm run compile",
+    "compile": "tsc -p ./",
+    "watch": "tsc -watch -p ./",
+    "postinstall": "node ./out/cli.js"
+  },
+  "devDependencies": {
+    "typescript": "^4.0.0",
+    "vscode": "^1.50.0"
+  }
+}
