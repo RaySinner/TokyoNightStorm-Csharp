@@ -361,7 +361,7 @@
 		{
 			"scope": "comment",
 			"settings": {
-				"foreground": "#6A9955"
+				"foreground": "#41496B"
 			}
 		},
 		{
@@ -483,7 +483,7 @@
 		{
 			"scope": "punctuation.definition.quote.begin.markdown",
 			"settings": {
-				"foreground": "#6A9955"
+				"foreground": "#414990"
 			}
 		},
 		{
@@ -701,7 +701,7 @@
 				"entity.name.operator.custom-literal"
 			],
 			"settings": {
-				"foreground": "#DCDCAA"
+				"foreground": "#A87FC8"
 			}
 		},
 		{
@@ -750,7 +750,8 @@
 				"support.constant.math",
 				"support.constant.dom",
 				"support.constant.json",
-				"entity.other.inherited-class"
+				"entity.other.inherited-class",
+				"punctuation.separator.namespace.ruby"
 			],
 			"settings": {
 				"foreground": "#4EC9B0"
@@ -875,33 +876,6 @@
 			}
 		},
 		{
-			"scope": [
-				"keyword.preprocessor.region.cs",
-				"entity.name.function.preprocessor",
-				"meta.preprocessor.region.cs",
-				"entity.name.type.cs",
-				"variable.other.object.cs",
-				"meta.accessor.getter.cs",
-				"entity.name.type.class.cs",
-				"entity.name.type.enum.cs",
-				"entity.name.type.struct.cs",
-				"entity.name.type.interface.cs",
-				"entity.name.type.delegate.cs",
-				"entity.name.type.namespace.cs",
-				"entity.name.type.parameter.cs",
-				"entity.name.type.variable.cs"
-			],
-			"settings": {
-				"foreground": "#84D3A5"
-			}
-		},
-		{
-			"scope": "ref.matchtext",
-			"settings": {
-				"foreground": "#FFFFFF"
-			}
-		},
-		{
 			"scope": "token.info-token",
 			"settings": {
 				"foreground": "#6796E6"
@@ -926,28 +900,29 @@
 			}
 		},
 		{
-			"scope": [
-				"entity.name.function.cs"
-			],
+			"scope": "token.warn-token",
 			"settings": {
-				"foreground": "#a083e2"
+				"foreground": "#CD9731"
 			}
 		},
 		{
-			"scope": [
-				"comment.line.double-slash.cs"
-			],
+			"scope": "token.error-token",
 			"settings": {
-				"foreground": "#41496B"
+				"foreground": "#F44747"
 			}
 		},
 		{
-			"scope": [
-				"string.quoted.double.cs"
-			],
+			"scope": "token.debug-token",
 			"settings": {
-				"foreground": "#5d6ba8"
+				"foreground": "#B267E6"
 			}
 		}
-	]
+	],
+	"semanticHighlighting": true,
+    "semanticTokenColors": {
+        "newOperator": "#d4d4d4",
+        "stringLiteral": "#ce9178",
+        "customLiteral": "#D4D4D4",
+        "numberLiteral": "#b5cea8",
+    }
 }
