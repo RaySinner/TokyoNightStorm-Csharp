@@ -1,41 +1,45 @@
 # Tokyo Night Storm C#
 
-Кастомная тема для Visual Studio Code, оптимизированная для C# разработки, основанная на цветовой схеме Tokyo Night Storm.
+A Visual Studio Code theme optimized for C# development, based on Tokyo Night Storm style.
 
-## Особенности
+<div align="center">
+![Theme Preview](images/tokyo-csharp-preview.png)
+</div>
 
-- Оптимизированная цветовая схема для C# разработки
-- Улучшенное выделение синтаксиса для функций и методов
-- Специально подобранные цвета для комментариев и строк
-- Тёмная тема в стиле Tokyo Night Storm с акцентом на комфортную работу
+## Features
 
-## Установка
+- Optimized color scheme for C# development
+- Enhanced syntax highlighting for functions and methods
+- Carefully selected colors for comments and strings
+- Dark theme in Tokyo Night Storm style focused on comfortable coding
 
-1. Клонируйте репозиторий:
+## Installation
+
+1. Clone the repository:
    ```bash
    git clone https://github.com/RaySinner/TokyoNightStorm-Csharp.git
    ```
-2. Перейдите в директорию проекта:
+2. Go to the project directory:
    ```bash
    cd TokyoNightStorm-Csharp
    ```
-3. Установите зависимости:
+3. Install dependencies:
    ```bash
    npm install
    ```
-4. Соберите расширение:
+4. Build the extension:
    ```bash
-   vsce package
+   npx @vscode/vsce package
    ```
 
-## Структура проекта
+## Project structure
 
-- `themes/tokyo-night-storm-csharp.json`: Основной файл темы с настройками цветов
-- `package.json`: Метаданные расширения и настройки
-- `.vscode/`: Конфигурационные файлы для разработки
-- `CHANGELOG.md`: История изменений
-- `LICENSE`: Лицензионное соглашение
+- `themes/tokyo-night-storm-csharp. json`: Main theme file with color settings
+- `package. json`: Extension metadata and settings
+- `.vscode/`: Configuration files for development
+- `CHANGELOG.md`: History of changes
+- `LICENSE.md`: License agreement
 
-## Лицензия
+## License
 
-Проект распространяется под лицензией MIT. Подробности в файле `LICENSE`.
+The project is distributed under the MIT license. Details in the `LICENSE` file.

@@ -5,6 +5,7 @@
   "version": "0.0.1",
   "publisher": "RaySinner",
   "license": "MIT",
+  "icon": "./images/tokyo-csharp-icon.png",
   "repository": {
     "type": "git",
     "url": "https://github.com/RaySinner/TokyoNightStorm-Csharp"
