@@ -2,9 +2,7 @@
 
 A Visual Studio Code theme optimized for C# development, based on Tokyo Night Storm style.
 
-<div align="center">
 ![Theme Preview](images/tokyo-csharp-preview.png)
-</div>
 
 ## Features
 
